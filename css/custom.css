@@ -1,0 +1,164 @@
+.sessaoPromocao {
+
+    
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+
+    .sessaoPromocao {
+        -ms-flex: 0 0 50% !important;
+        -webkit-box-flex: 0 !important;
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }
+
+
+}
+
+
+
+.indique {
+    display: block;
+    transition: 0.3s ease;
+    text-align: center;
+    line-height: 58px!important;
+    width: 70px;
+    height: 70px;
+    opacity: 0.7;
+    padding-bottom: 7px;
+    border-radius: 50%;
+    background-color: #1F61B5;
+    border: 3px solid #fff;
+    position: fixed!important;
+    bottom: 300px;
+    right: 20px;
+    cursor: pointer;
+    animation: none !important;
+    z-index: 999999999;
+}
+
+
+.whatsapp {
+    display: block;
+    transition: 0.3s ease;
+    text-align: center;
+    line-height: 58px!important;
+    width: 70px;
+    height: 70px;
+    opacity: 0.7;
+    padding-bottom: 7px;
+    border-radius: 50%;
+    background-color: #25D366;
+    border: 3px solid #fff;
+    position: fixed!important;
+    bottom: 190px;
+    right: 20px;
+    cursor: pointer;
+    animation: none !important;
+    z-index: 999999999;
+}
+
+
+
+.senhaMobile {
+    
+    display: hidden !important;
+    
+}
+
+
+@media (min-width: 320px) and (max-width: 500px) {
+
+    .senhaMobile {
+        display: block !important;
+    }
+
+
+}
+
+
+
+
+.avisoWrapper {
+    width: 100%;
+    height: 700px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background: rgb(121, 144, 219);
+
+}
+
+.orderErrorCota {
+    width: 80%;
+    font-family: sans-serif;
+    font-size: 35px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+
+.warningButton {
+    margin-top: 15px;
+    width: 80%;
+    border: 1px solid white;
+    font-family: sans-serif;
+    font-size: 35px;
+    text-align: center;
+    background: #1934a7;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+
+    .senhaMobile {
+        display: block !important;
+    }
+
+.avisoWrapper {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 20;
+    background: rgb(121, 144, 219);
+
+}
+
+.orderErrorCota {
+    width: 80%;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.warningButton {
+    margin-top: 5px;
+    width: 80%;
+    border: 1px solid white;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background: #1934a7;
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+    
+}
+
+
+}
